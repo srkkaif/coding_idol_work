@@ -1,0 +1,75 @@
+<html>
+<head>
+<style>
+  .first{
+      height:250px;
+      width:400px;
+      margin:25px 60px 10px 60px;
+      padding:7px;
+      background-color:red;
+      color:black
+      border:5px solid black;
+      align-items:center;
+      display:grid;
+      
+  }
+.second{
+       
+       height;400px;
+       width:50px;
+       margin:15px;
+        padding:20px;
+       background-color:green;
+       color:black;
+       border:5px solid black;
+}
+.third {
+    
+       height;200px;
+       width:50px;
+       margin: 10px;
+       background-color:yellow;
+       color:black;
+       border:5px solid black;
+}
+
+.fourth {
+       height;200px;
+       width:50px;
+       margin: 10px;
+       background-color:powderblue;
+       color:black;
+       border:5px solid black;
+}
+
+.fifth{
+       height;200px;
+       width:50px;
+       margin: 10px;
+       background-color:blue;
+       color:black;
+       border:5px solid black;
+}
+
+
+</style>
+<title>
+USIG CSS & HTML
+</title>
+</HEAD>
+<body>
+
+  <div align="center" class="first">This Is My Fist Parah in div </div> <br /><br /><br /> <br /> <br />
+       <span class="second"> This Is My second Parah in
+          </span>
+       <span class="third"> This Is My third Parah in
+          </span>
+       <span class="fourth"> This Is My Fourth Parah in
+          </span>
+       <span class="fifth"> This Is My Fifth Parah in
+          </span> <br>
+      <footer>
+      <p align="center"> copyright ©️ 2023,By Md Kaif </p>
+      </footer>
+</body>
+</html>
