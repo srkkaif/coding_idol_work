@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+ <html> 
+  
+ <head> 
+   <meta charset="utf-8"> 
+   <meta name="viewport" content="width=device-width"> 
+   <title>student form</title> 
+   <link href="style.css" rel="stylesheet" type="text/css" /> 
+ </head> 
+  
+ <body style="background-color:  #ff9999;"> 
+   <h1 align="center" style="background-color: #cce6ff; color: #4de494; ">#CODING IDOL</h1> 
+   <hr> 
+   <ul> 
+     <li style="color:indigo;">Required fields are followed by *</li> 
+   </ul> 
+   <hr> 
+  
+   <form action="nextpage.html"> 
+     <fieldset 
+       style="background-color: #ffcccc; text-align: center; margin-top: 60px; margin-bottom: 10px; margin-left: 50px; margin-right: 50px;"> 
+       <legend style="color: #220033;">FILL THE FORM</legend> 
+       <input type="text" required placeholder="*enter your name"> 
+       <br><br> 
+       <input type="email" required placeholder="*enter your mail"> 
+       <br><br> 
+  
+       <input type="number" required placeholder="*enter your roll no."> 
+       <br><br> 
+       <input type="radio" name="branch" id="cse">CSE 
+       <input type="radio" name="branch" id="it">IT 
+       <br><BR> 
+       <select name="intrest" id="intrest" required> 
+         <option value="">*--select your intrest--</option> 
+         <option value="web dev">WEB DEV</option> 
+         <option value="pyhton">PYTHON</option> 
+         <option value="java">JAVA</option> 
+         <option value="html">RUBY</option> 
+         <option value="block chain">BLOCK CHAIN</option> 
+         <option value="css">CSS</option> 
+         <option value="ai">AI</option> 
+         <option value="ml">ML</option> 
+       </selecT> 
+       <br> 
+       <br> 
+  
+       <textarea name="suggetion box" cols="30" rows="3" placeholder="give me some suggetion"></textarea> 
+  
+     </fieldset> 
+     <br><br> 
+     <p style="text-align: center;"> 
+       <input type="submit" value="submit" style="background-color: green;"> 
+       <input type="reset" value="RESET" style="background-color: red;"> 
+     </p> 
+   </form> 
+  <footer>
+  <p>
+  Copyright &copy;2023,By MD KAIF
+  </p>
+</footer>
+ </body> 
+  
+ </html>
